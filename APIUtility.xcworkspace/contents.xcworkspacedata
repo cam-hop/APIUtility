@@ -4,4 +4,7 @@
    <FileRef
       location = "group:APIUtility.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:RxSwiftFluxDemo/RxSwiftFluxDemo.xcodeproj">
+   </FileRef>
 </Workspace>

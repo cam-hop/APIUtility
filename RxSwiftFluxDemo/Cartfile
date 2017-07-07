@@ -1,0 +1,15 @@
+# Network
+github "RxSwiftCommunity/RxAlamofire" "master"
+
+# Paser
+github "ikesyo/Himotoki" ~> 3.0
+
+# Image
+github "onevcat/Kingfisher" ~> 3.0
+
+# RxSwift
+github "ReactiveX/RxSwift"
+
+github "cam-hop/RxSwiftFlux"
+
+github "cam-hop/APIUtility"

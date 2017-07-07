@@ -19,7 +19,7 @@ open class ApiService {
         self.scheduler = ConcurrentDispatchQueueScheduler(qos: DispatchQoS(qosClass: DispatchQoS.QoSClass.background, relativePriority: 1))
     }
 
-    public func fetch<T: APIRequest>(_ item: T) -> Observable<T.Response> {
+    open func fetch<T: APIRequest>(_ item: T) -> Observable<T.Response> {
         var requestParams = ""
         if let params = item.parameters {
             requestParams = params.sorted { $0.0 < $1.0 }

@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire" "4.5.0"
+github "ReactiveX/RxSwift" "3.5.0"
+github "RxSwiftCommunity/RxAlamofire" "6bac601d95ea54aaf3ed5c14535c46166c860812"
+github "cam-hop/APIUtility" "0.0.1"
+github "cam-hop/RxSwiftFlux" "1.0.0"
+github "ikesyo/Himotoki" "3.1.0"
+github "onevcat/Kingfisher" "3.10.3"
