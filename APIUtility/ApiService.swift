@@ -13,6 +13,7 @@ import Alamofire
 import RxAlamofire
 
 open class ApiService {
+    static let shared = ApiService()
     private let scheduler: ConcurrentDispatchQueueScheduler
 
     public init() {
